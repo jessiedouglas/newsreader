@@ -1287,3 +1287,246 @@ Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 11:44:18 -0400
 Processing by Api::FeedsController#index as JSON
   [1m[35mFeed Load (0.3ms)[0m  SELECT "feeds".* FROM "feeds"
 Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/views/feeds/feeds_show.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 12:10:45 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.4ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 15ms (Views: 6.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/views/feeds/feeds_show.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 12:30:28 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.3ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/feeds" for 127.0.0.1 at 2014-10-21 12:33:03 -0400
+Processing by Api::FeedsController#create as JSON
+  Parameters: {"url"=>"http://harkavagrantfeed.tumblr.com/rss", "feed"=>{"url"=>"http://harkavagrantfeed.tumblr.com/rss"}}
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."url" = 'http://harkavagrantfeed.tumblr.com/rss' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Binary data inserted for `string` type on column `title`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "feeds" ("created_at", "title", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["title", "Hark, a Vagrant (RSS Feed)"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["url", "http://harkavagrantfeed.tumblr.com/rss"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/33034282303"], ["json", "{\"title\":\"pusheen:\\n\\nPusheen \\u0026amp; Fat Pony\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/33034282303\",\"description\":\"\\u0026lt;img src=\\\"http://38.media.tumblr.com/tumblr_mbfumzh9Ng1qhy6c9o1_500.gif\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a class=\\\"tumblr_blog\\\" href=\\\"http://pusheen.com/post/32958626848\\\"\\u0026gt;pusheen\\u0026lt;/a\\u0026gt;:\\u0026lt;/p\\u0026gt;\\n\\u0026lt;blockquote\\u0026gt;\\n\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://pusheen.com/\\\"\\u0026gt;Pusheen\\u0026lt;/a\\u0026gt; \\u0026amp; \\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=131\\\"\\u0026gt;Fat Pony\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\\n\\u0026lt;/blockquote\\u0026gt;\",\"pubDate\":\"2012-10-06T17:43:18-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/33034282303\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/33034282303"], ["published_at", Sat, 06 Oct 2012 21:43:18 UTC +00:00], ["title", "pusheen:\n\nPusheen &amp; Fat Pony"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/15260012476"], ["json", "{\"title\":\"Hark, a Vagrant: velocipede\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/15260012476\",\"description\":\"\\u0026lt;img src=\\\"http://36.media.tumblr.com/tumblr_lx8usfNtMw1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=331\\\"\\u0026gt;Hark, a Vagrant: velocipede\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2012-01-03T17:36:17-05:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/15260012476\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/15260012476"], ["published_at", Tue, 03 Jan 2012 22:36:17 UTC +00:00], ["title", "Hark, a Vagrant: velocipede"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/14613067799"], ["json", "{\"title\":\"Hark, a Vagrant: Holiday Sketches\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/14613067799\",\"description\":\"\\u0026lt;img src=\\\"http://40.media.tumblr.com/tumblr_lwlt52hbbR1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=330\\\"\\u0026gt;Hark, a Vagrant: Holiday Sketches\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-12-22T06:55:53-05:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/14613067799\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/14613067799"], ["published_at", Thu, 22 Dec 2011 11:55:53 UTC +00:00], ["title", "Hark, a Vagrant: Holiday Sketches"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/14227063262"], ["json", "{\"title\":\"Hark, a Vagrant: Wuthering Heights pt 3\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/14227063262\",\"description\":\"\\u0026lt;img src=\\\"http://41.media.tumblr.com/tumblr_lw7ogyXVrA1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=329\\\"\\u0026gt;Hark, a Vagrant: Wuthering Heights pt 3\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-12-14T15:48:36-05:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/14227063262\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/14227063262"], ["published_at", Wed, 14 Dec 2011 20:48:36 UTC +00:00], ["title", "Hark, a Vagrant: Wuthering Heights pt 3"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/13272228348"], ["json", "{\"title\":\"Hark, a Vagrant: Nemesis\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/13272228348\",\"description\":\"\\u0026lt;img src=\\\"http://36.media.tumblr.com/tumblr_lv6sv5NTyM1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=327\\\"\\u0026gt;Hark, a Vagrant: Nemesis\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-11-24T21:52:20-05:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/13272228348\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/13272228348"], ["published_at", Fri, 25 Nov 2011 02:52:20 UTC +00:00], ["title", "Hark, a Vagrant: Nemesis"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/12835248329"], ["json", "{\"title\":\"Hark, a Vagrant: Gorey Covers Part 5\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/12835248329\",\"description\":\"\\u0026lt;img src=\\\"http://40.media.tumblr.com/tumblr_lupg2jWYwu1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=326\\\"\\u0026gt;Hark, a Vagrant: Gorey Covers Part 5\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-11-15T12:56:46-05:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/12835248329\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/12835248329"], ["published_at", Tue, 15 Nov 2011 17:56:46 UTC +00:00], ["title", "Hark, a Vagrant: Gorey Covers Part 5"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/12482392885"], ["json", "{\"title\":\"Hark, a Vagrant: Nancy’s Halloween Special\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/12482392885\",\"description\":\"\\u0026lt;img src=\\\"http://40.media.tumblr.com/tumblr_lub98c4iyZ1qa4bqdo1_500.jpg\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=325\\\"\\u0026gt;Hark, a Vagrant: Nancy’s Halloween Special\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-11-07T21:02:39-05:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/12482392885\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/12482392885"], ["published_at", Tue, 08 Nov 2011 02:02:39 UTC +00:00], ["title", "Hark, a Vagrant: Nancy’s Halloween Special"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/11681122973"], ["json", "{\"title\":\"Hark, a Vagrant: Kraven the Hunter\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/11681122973\",\"description\":\"\\u0026lt;img src=\\\"http://36.media.tumblr.com/tumblr_ltcgg9ws401qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=324\\\"\\u0026gt;Hark, a Vagrant: Kraven the Hunter\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-10-20T03:02:36-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/11681122973\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/11681122973"], ["published_at", Thu, 20 Oct 2011 07:02:36 UTC +00:00], ["title", "Hark, a Vagrant: Kraven the Hunter"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/11178830567"], ["json", "{\"title\":\"Hark, a Vagrant: Wuthering Heights pt 2\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/11178830567\",\"description\":\"\\u0026lt;img src=\\\"http://36.media.tumblr.com/tumblr_lsqztgajHY1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=323\\\"\\u0026gt;Hark, a Vagrant: Wuthering Heights pt 2\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-10-08T12:53:42-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/11178830567\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/11178830567"], ["published_at", Sat, 08 Oct 2011 16:53:42 UTC +00:00], ["title", "Hark, a Vagrant: Wuthering Heights pt 2"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/10686410856"], ["json", "{\"title\":\"Hark, a Vagrant: Wuthering Heights pt 1\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/10686410856\",\"description\":\"\\u0026lt;img src=\\\"http://40.media.tumblr.com/tumblr_ls4ufmHOHW1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=322\\\"\\u0026gt;Hark, a Vagrant: Wuthering Heights pt 1\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-09-26T13:50:12-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/10686410856\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/10686410856"], ["published_at", Mon, 26 Sep 2011 17:50:12 UTC +00:00], ["title", "Hark, a Vagrant: Wuthering Heights pt 1"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/9785939198"], ["json", "{\"title\":\"Hark, a Vagrant: Napoleon’s height\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/9785939198\",\"description\":\"\\u0026lt;img src=\\\"http://41.media.tumblr.com/tumblr_lqzycrCNhj1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=320\\\"\\u0026gt;Hark, a Vagrant: Napoleon’s height\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-09-04T11:53:17-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/9785939198\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/9785939198"], ["published_at", Sun, 04 Sep 2011 15:53:17 UTC +00:00], ["title", "Hark, a Vagrant: Napoleon’s height"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/9413273220"], ["json", "{\"title\":\"Hark, a Vagrant: Shelley and Byron\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/9413273220\",\"description\":\"\\u0026lt;img src=\\\"http://36.media.tumblr.com/tumblr_lqjdfnYjwr1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=319\\\"\\u0026gt;Hark, a Vagrant: Shelley and Byron\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-08-26T12:59:50-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/9413273220\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/9413273220"], ["published_at", Fri, 26 Aug 2011 16:59:50 UTC +00:00], ["title", "Hark, a Vagrant: Shelley and Byron"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (1.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/8674672734"], ["json", "{\"title\":\"Hark, a Vagrant: Feynman\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/8674672734\",\"description\":\"\\u0026lt;img src=\\\"http://41.media.tumblr.com/tumblr_lpn5ocI6Np1qa4bqdo1_500.jpg\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=318\\\"\\u0026gt;Hark, a Vagrant: Feynman\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-08-09T03:29:02-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/8674672734\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/8674672734"], ["published_at", Tue, 09 Aug 2011 07:29:02 UTC +00:00], ["title", "Hark, a Vagrant: Feynman"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/8362347132"], ["json", "{\"title\":\"Hark, a Vagrant: Nancy Drew 4\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/8362347132\",\"description\":\"\\u0026lt;img src=\\\"http://40.media.tumblr.com/tumblr_lp9z1c4s9e1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=317\\\"\\u0026gt;Hark, a Vagrant: Nancy Drew 4\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-08-02T00:36:51-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/8362347132\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/8362347132"], ["published_at", Tue, 02 Aug 2011 04:36:51 UTC +00:00], ["title", "Hark, a Vagrant: Nancy Drew 4"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/8249714204"], ["json", "{\"title\":\"Hark, a Vagrant: Tycho redone\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/8249714204\",\"description\":\"\\u0026lt;img src=\\\"http://40.media.tumblr.com/tumblr_lp4vyvDJFx1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=316\\\"\\u0026gt;Hark, a Vagrant: Tycho redone\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-07-30T06:42:32-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/8249714204\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/8249714204"], ["published_at", Sat, 30 Jul 2011 10:42:32 UTC +00:00], ["title", "Hark, a Vagrant: Tycho redone"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/8008913090"], ["json", "{\"title\":\"Hark, a Vagrant: Fop Gun\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/8008913090\",\"description\":\"\\u0026lt;img src=\\\"http://41.media.tumblr.com/tumblr_loup7pngQq1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=315\\\"\\u0026gt;Hark, a Vagrant: Fop Gun\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-07-24T18:40:39-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/8008913090\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/8008913090"], ["published_at", Sun, 24 Jul 2011 22:40:39 UTC +00:00], ["title", "Hark, a Vagrant: Fop Gun"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (2.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/7847958428"], ["json", "{\"title\":\"Hark, a Vagrant: Curly’s Gold (book update)\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/7847958428\",\"description\":\"\\u0026lt;img src=\\\"http://41.media.tumblr.com/tumblr_lon5iuNHm51qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=314\\\"\\u0026gt;Hark, a Vagrant: Curly’s Gold (book update)\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-07-20T16:52:08-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/7847958428\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/7847958428"], ["published_at", Wed, 20 Jul 2011 20:52:08 UTC +00:00], ["title", "Hark, a Vagrant: Curly’s Gold (book update)"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/7712858692"], ["json", "{\"title\":\"Hark, a Vagrant: Teens and more teens\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/7712858692\",\"description\":\"\\u0026lt;img src=\\\"http://40.media.tumblr.com/tumblr_logn7afmNG1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=313\\\"\\u0026gt;Hark, a Vagrant: Teens and more teens\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-07-17T04:30:48-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/7712858692\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/7712858692"], ["published_at", Sun, 17 Jul 2011 08:30:48 UTC +00:00], ["title", "Hark, a Vagrant: Teens and more teens"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/7373699663"], ["json", "{\"title\":\"Hark, a Vagrant: Rum Rebellion\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/7373699663\",\"description\":\"\\u0026lt;img src=\\\"http://40.media.tumblr.com/tumblr_lo029i9eKP1qa4bqdo1_500.png\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=312\\\"\\u0026gt;Hark, a Vagrant: Rum Rebellion\\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-07-08T05:36:56-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/7373699663\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/7373699663"], ["published_at", Fri, 08 Jul 2011 09:36:56 UTC +00:00], ["title", "Hark, a Vagrant: Rum Rebellion"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00], ["feed_id", 6], ["guid", "http://harkavagrantfeed.tumblr.com/post/7010785323"], ["json", "{\"title\":\"Hark, a Vagrant:\",\"link\":\"http://harkavagrantfeed.tumblr.com/post/7010785323\",\"description\":\"\\u0026lt;img src=\\\"http://38.media.tumblr.com/tumblr_lni7ovQH4L1qa4bqdo1_500.gif\\\"/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;p\\u0026gt;\\u0026lt;a href=\\\"http://www.harkavagrant.com/index.php?id=311\\\"\\u0026gt;Hark, a Vagrant: \\u0026lt;/a\\u0026gt;\\u0026lt;/p\\u0026gt;\",\"pubDate\":\"2011-06-28T14:17:25-04:00\",\"guid\":\"http://harkavagrantfeed.tumblr.com/post/7010785323\"}"], ["link", "http://harkavagrantfeed.tumblr.com/post/7010785323"], ["published_at", Tue, 28 Jun 2011 18:17:25 UTC +00:00], ["title", "Hark, a Vagrant:"], ["updated_at", Tue, 21 Oct 2014 16:33:03 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Completed 200 OK in 275ms (Views: 0.4ms | ActiveRecord: 42.1ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 12:33:42 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/feeds/6" for 127.0.0.1 at 2014-10-21 12:34:13 -0400
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mSQL (2.4ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-10-21 16:34:13.861896' WHERE "feeds"."id" = 6[0m
+  [1m[35m (1.0ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 6]]
+Completed 200 OK in 212ms (Views: 207.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/feeds/6/entries" for 127.0.0.1 at 2014-10-21 12:34:32 -0400
+
+ActionController::RoutingError (No route matches [GET] "/feeds/6/entries"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/appacademy/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/appacademy/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/appacademy/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/appacademy/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/appacademy/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/appacademy/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/appacademy/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (32.5ms)
+
+
+Started GET "/api/feeds/6/entries" for 127.0.0.1 at 2014-10-21 12:34:39 -0400
+Processing by Api::EntriesController#index as HTML
+  Parameters: {"feed_id"=>"6"}
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 6]]
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.4ms)
