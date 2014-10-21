@@ -9,7 +9,7 @@ NewsReader.Collections.Feeds = Backbone.Collection.extend({
       feeds = this;
 
     if (model) {
-      this.fetch();
+      model.fetch();
     } else {
       model = new NewsReader.Models.Feed({ id: id });
 

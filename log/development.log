@@ -1530,3 +1530,1033 @@ Processing by Api::EntriesController#index as HTML
   [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", "6"]]
   [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 6]]
 Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/feeds/6/entries" for 127.0.0.1 at 2014-10-21 13:50:03 -0400
+Processing by Api::EntriesController#index as HTML
+  Parameters: {"feed_id"=>"6"}
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 6]]
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/feeds/6" for 127.0.0.1 at 2014-10-21 13:50:07 -0400
+Processing by Api::FeedsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mSQL (1.3ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-10-21 17:50:07.526542' WHERE "feeds"."id" = 6[0m
+  [1m[35m (0.6ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 6]]
+Completed 200 OK in 291ms (Views: 287.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 13:50:15 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 281ms (Views: 280.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/views/feeds/feeds_show.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 13:50:16 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/views/feeds/feeds_show.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/views/feeds/feeds_show.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 13:50:23 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 54ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/views/feeds/feeds_show.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 13:52:31 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.3ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/views/feeds/feeds_show.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 13:54:06 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:16:13 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.5ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 52ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:16:48 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:17:22 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.3ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:17:26 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:21:20 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:21:22 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.3ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:21:30 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:24:23 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:24:24 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.3ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:27:33 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:27:43 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.3ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:28:21 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:28:43 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 57ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:30:48 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:30:49 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:31:01 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.5ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:33:18 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.3ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/views/feeds/feed_show.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/assets/views/feeds/feeds_index.js?body=1" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-10-21 14:35:48 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/feeds/2" for 127.0.0.1 at 2014-10-21 14:35:49 -0400
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[35mFeed Load (0.1ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mSQL (3.2ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-10-21 18:35:49.581521' WHERE "feeds"."id" = 2[0m
+  [1m[35m (0.5ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 18:35:50 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com?p=1607053&amp;preview_id=1607053"], ["json", "{\"title\":\"Why CFOs Should Embrace SysAdmins\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/3faf7523/sc/4/l/0L0Swired0N0C20A140C10A0Ccfos0Esysadmins0C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2014/09/idea_pen_innovation_660.jpg\\\" alt=\\\"Why CFOs Should Embrace SysAdmins\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;Traditionally, CFOs love developers because they create product. We tend to invest in developers, and expect efficiency from sysadmins. That\\u0026amp;#8217;s because CFOs often see IT as a cost center, and sysadmins as the people who keep the lights on. Devs are seen as creating innovation, while sysadmins are there to make sure that innovation runs, [\\u0026amp;#8230;]\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2014/10/cfos-sysadmins/\\\"\\u0026gt;Why CFOs Should Embrace SysAdmins\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/3faf7523/sc/4/mf.gif' border='0'/\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474546689/u/0/f/661370/c/35185/s/3faf7523/sc/4/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474546689/u/0/f/661370/c/35185/s/3faf7523/sc/4/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474546689/u/0/f/661370/c/35185/s/3faf7523/sc/4/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474546689/u/0/f/661370/c/35185/s/3faf7523/sc/4/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474546689/u/0/f/661370/c/35185/s/3faf7523/sc/4/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474546689/u/0/f/661370/c/35185/s/3faf7523/sc/4/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474546689/u/0/f/661370/c/35185/s/3faf7523/sc/4/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474546689/u/0/f/661370/c/35185/s/3faf7523/sc/4/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/210474546689/u/0/f/661370/c/35185/s/3faf7523/sc/4/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\",\"comments\":\"http://www.wired.com/2014/10/cfos-sysadmins/#comments\",\"pubDate\":\"2014-10-21T14:00:55-04:00\",\"category\":\"sysadmins\",\"guid\":\"http://www.wired.com?p=1607053\\u0026amp;preview_id=1607053\",\"dc_creator\":\"Bill Koefoed, Puppet Labs\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/3faf7523/sc/4/l/0L0Swired0N0C20A140C10A0Ccfos0Esysadmins0C/story01.htm"], ["published_at", Tue, 21 Oct 2014 18:00:55 UTC +00:00], ["title", "Why CFOs Should Embrace SysAdmins"], ["updated_at", Tue, 21 Oct 2014 18:35:50 UTC +00:00]]
+  [1m[36m (13.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 18:35:50 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com/?p=1606791"], ["json", "{\"title\":\"A Fire-Safety Nightlight That Offers a New Take on the Smart Home\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/3faec968/sc/28/l/0L0Swired0N0C20A140C10A0Cfire0Esafety0Enightlight0Esmart0Ehome0C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2014/10/leeo-ft1.jpg\\\" alt=\\\"A Fire-Safety Nightlight That Offers a New Take on the Smart Home\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;The LEEO nightlight is just the first in what will be a series of connected devices designed for regular people.\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2014/10/fire-safety-nightlight-smart-home/\\\"\\u0026gt;A Fire-Safety Nightlight That Offers a New Take on the Smart Home\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/3faec968/sc/28/mf.gif' border='0'/\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474585582/u/0/f/661370/c/35185/s/3faec968/sc/28/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474585582/u/0/f/661370/c/35185/s/3faec968/sc/28/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474585582/u/0/f/661370/c/35185/s/3faec968/sc/28/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474585582/u/0/f/661370/c/35185/s/3faec968/sc/28/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474585582/u/0/f/661370/c/35185/s/3faec968/sc/28/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474585582/u/0/f/661370/c/35185/s/3faec968/sc/28/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474585582/u/0/f/661370/c/35185/s/3faec968/sc/28/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474585582/u/0/f/661370/c/35185/s/3faec968/sc/28/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/210474585582/u/0/f/661370/c/35185/s/3faec968/sc/28/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\",\"comments\":\"http://www.wired.com/2014/10/fire-safety-nightlight-smart-home/#comments\",\"pubDate\":\"2014-10-21T13:02:41-04:00\",\"category\":\"gallery\",\"guid\":\"http://www.wired.com/?p=1606791\",\"dc_creator\":\"Kyle VanHemert\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/3faec968/sc/28/l/0L0Swired0N0C20A140C10A0Cfire0Esafety0Enightlight0Esmart0Ehome0C/story01.htm"], ["published_at", Tue, 21 Oct 2014 17:02:41 UTC +00:00], ["title", "A Fire-Safety Nightlight That Offers a New Take on the Smart Home"], ["updated_at", Tue, 21 Oct 2014 18:35:50 UTC +00:00]]
+  [1m[35m (8.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 21 Oct 2014 18:35:50 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com/?p=1604581"], ["json", "{\"title\":\"New Tablet Case Recognizes Sign Language and Translates It Into Text\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/3fae317e/sc/28/l/0L0Swired0N0C20A140C10A0Cmotionsavvy0C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2014/10/motion-ft.jpg\\\" alt=\\\"New Tablet Case Recognizes Sign Language and Translates It Into Text\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;The UNI tablet case uses gesture recognition technology to translate sign language into audible speech.\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2014/10/motionsavvy/\\\"\\u0026gt;New Tablet Case Recognizes Sign Language and Translates It Into Text\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/3fae317e/sc/28/mf.gif' border='0'/\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474543308/u/0/f/661370/c/35185/s/3fae317e/sc/28/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474543308/u/0/f/661370/c/35185/s/3fae317e/sc/28/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474543308/u/0/f/661370/c/35185/s/3fae317e/sc/28/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474543308/u/0/f/661370/c/35185/s/3fae317e/sc/28/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474543308/u/0/f/661370/c/35185/s/3fae317e/sc/28/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474543308/u/0/f/661370/c/35185/s/3fae317e/sc/28/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474543308/u/0/f/661370/c/35185/s/3fae317e/sc/28/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474543308/u/0/f/661370/c/35185/s/3fae317e/sc/28/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/210474543308/u/0/f/661370/c/35185/s/3fae317e/sc/28/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\",\"comments\":\"http://www.wired.com/2014/10/motionsavvy/#comments\",\"pubDate\":\"2014-10-21T12:00:42-04:00\",\"category\":\"Ryan Hait Campbell\",\"guid\":\"http://www.wired.com/?p=1604581\",\"dc_creator\":\"Issie Lapowsky\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/3fae317e/sc/28/l/0L0Swired0N0C20A140C10A0Cmotionsavvy0C/story01.htm"], ["published_at", Tue, 21 Oct 2014 16:00:42 UTC +00:00], ["title", "New Tablet Case Recognizes Sign Language and Translates It Into Text"], ["updated_at", Tue, 21 Oct 2014 18:35:50 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 21 Oct 2014 18:35:50 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com/?p=1606609"], ["json", "{\"title\":\"Vine Makes It Easier to Discover Videos With New Channels Feature\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/3fade823/sc/4/l/0L0Swired0N0C20A140C10A0Cvine0Efollow0Echannels0C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2014/10/vinechannels-ft.jpg\\\" alt=\\\"Vine Makes It Easier to Discover Videos With New Channels Feature\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;Vine\\u0026amp;#8217;s six-second looping videos can be endlessly entertaining, given the Vines in your feed are actually worth watching. In an effort to get its users spending more time in their home feed (and checking out interesting Vines they may not otherwise see), Twitter-owned Vine updated its app today so you can follow channels. Vine introduced [\\u0026amp;#8230;]\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2014/10/vine-follow-channels/\\\"\\u0026gt;Vine Makes It Easier to Discover Videos With New Channels Feature\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/3fade823/sc/4/mf.gif' border='0'/\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474591912/u/0/f/661370/c/35185/s/3fade823/sc/4/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474591912/u/0/f/661370/c/35185/s/3fade823/sc/4/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474591912/u/0/f/661370/c/35185/s/3fade823/sc/4/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474591912/u/0/f/661370/c/35185/s/3fade823/sc/4/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474591912/u/0/f/661370/c/35185/s/3fade823/sc/4/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474591912/u/0/f/661370/c/35185/s/3fade823/sc/4/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/210474591912/u/0/f/661370/c/35185/s/3fade823/sc/4/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/210474591912/u/0/f/661370/c/35185/s/3fade823/sc/4/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/210474591912/u/0/f/661370/c/35185/s/3fade823/sc/4/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\",\"comments\":\"http://www.wired.com/2014/10/vine-follow-channels/#comments\",\"pubDate\":\"2014-10-21T11:30:24-04:00\",\"category\":\"Gadget Lab\",\"guid\":\"http://www.wired.com/?p=1606609\",\"dc_creator\":\"Christina Bonnington\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/3fade823/sc/4/l/0L0Swired0N0C20A140C10A0Cvine0Efollow0Echannels0C/story01.htm"], ["published_at", Tue, 21 Oct 2014 15:30:24 UTC +00:00], ["title", "Vine Makes It Easier to Discover Videos With New Channels Feature"], ["updated_at", Tue, 21 Oct 2014 18:35:50 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 2]]
+Completed 200 OK in 771ms (Views: 740.1ms | ActiveRecord: 30.4ms)
