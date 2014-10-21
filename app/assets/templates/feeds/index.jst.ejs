@@ -2,7 +2,22 @@
   <% feeds.each(function(feed){ %>
     <li>
       <a href="#/feeds/<%= feed.id %>"><%= feed.escape('title') %></a>
+      <button class='delete-feed' data-id="<%= feed.id %>">Delete!</button>
     </li>
   <% }); %>
 
 </ul>
+
+<br><br><br>
+
+<h3>Add New Feed!</h3>
+
+<form class="add-feed-form">
+
+  <label for="feed-url">Url</label>
+  <input type="text" name="feed[url]" value="" id="feed-url">
+
+  <br>
+
+  <button class="add-feed">Add Feed!</button>
+</form>

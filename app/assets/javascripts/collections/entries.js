@@ -29,4 +29,7 @@ NewsReader.Collections.Entries = Backbone.Collection.extend({
     return model;
   },
 
+  comparator: function (model) {
+    return -Date.parse(model.get("published_at"));
+  }
 });

@@ -1,4 +1,9 @@
 NewsReader.Models.Feed = Backbone.Model.extend({
+  validate: function (attributes) {
+    if (!attributes || !attributes.url || attributes.url == "") {
+      return "cannot have an empty URL";
+    }
+  },
 
   urlRoot: "api/feeds",
 
