@@ -11,3 +11,107 @@
  *= require_self
  *= require_tree .
  */
+
+/* RESET */
+html, head, body, h1, button, form, li, ul, div, h3, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  text-decoration: inherit;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* STYLE */
+
+/* UTILS */
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* HEADER */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+/* INDEX */
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(#AA7505, #5C3F00);
+  color: white;
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 100%;
+}
+
+li {
+  padding: 7px;
+  height: 50px;
+  line-height: 100%;
+  position: ;
+}
+
+button {
+  background: url("http://static2.businessinsider.com/image/509802cb69bedd6209000009/nicolas-cage-will-be-in-the-expendables-3.jpg");
+  padding: 5px;
+  border-radius: 5px;
+/*  background: #4B0B72;*/
+  cursor: pointer;
+  box-shadow: 3px 3px 3px red;
+  margin: 0px 0px 0px 400px;
+  transition: background 10s, padding 30s, box-shadow 30s, font-family 30s, transform 30s, margin 30s, font-size 30s;
+  border: 2px solid #4B0B72;
+  transform: rotate(0);
+}
+
+button:hover {
+  padding: 300px;
+  box-shadow: 100px 100px 100px green;
+  font-family: serif;
+  transform: rotate(180000deg);
+  margin: -100px 0px 0px -500px;
+  font-size: 300px;
+}
+
+button.delete-feed {
+  position: absolute;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #733499;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:not(.delete-feed) {
+  margin: 10px;
+}
+
+ul {
+  border: 2px solid #188D06;
+  padding: 10px;
+  border-radius: 5px;
+}
